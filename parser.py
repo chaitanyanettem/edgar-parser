@@ -104,7 +104,7 @@ class cik:
 
 		commaSeparated = self.prep_csv_string(commaList)
 
-		print commaSeparated
+		# print commaSeparated
 		f = open("primary_doc.csv","w")
 		f.write(commaSeparated)
 		f.close()
@@ -154,7 +154,7 @@ class cik:
 			commaList.append(info_table.find(none_tag))
 
 			commaSeparated = self.prep_csv_string(commaList)
-			print commaSeparated
+			# print commaSeparated
 			f.write(commaSeparated+"\n")
 		
 		f.close()
