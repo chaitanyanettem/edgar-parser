@@ -75,7 +75,7 @@ class cik:
 			if x is not None:
 				commaSeparated.append(x.text)
 			else:
-				commaSeparated.append('None')
+				commaSeparated.append('Empty')
 		commaSeparated = ",".join(commaSeparated)
 		return commaSeparated
 
